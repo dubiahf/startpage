@@ -7,4 +7,6 @@ Podczas pisania pomagałem sobie licznymi wątkami na forach dyskusyjnych takich
 
 ### Użytkowanie 
 
-**[spacja]** skupia przeglądarkę na wyszukiwarce
+- **[spacja]** skupia przeglądarkę na wyszukiwarce
+- przycisk w prawym górnym rogu wysuwa panel z listą "do zrobienia"
+- przycisk plusa pod "wyszukiwaniem" pokazuje "modal", dzięki któremu można dodawać nowe skróty do stron internetowych
