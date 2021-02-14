@@ -7,4 +7,4 @@ Podczas pisania pomagałem sobie licznymi wątkami na forach dyskusyjnych takich
 
 ### Użytkowanie 
 
-**spacja** skupia przeglądarkę na wyszukiwarce
+[**spacja**] skupia przeglądarkę na wyszukiwarce
