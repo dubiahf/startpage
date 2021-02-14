@@ -16,6 +16,7 @@ ul{
 /* stylowanie .link */
 .link-container{
   text-align: justify;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .link-container::after{
@@ -31,7 +32,7 @@ ul{
 }
 
 .link-container li:hover{
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 /* /.link */
 
@@ -148,7 +149,7 @@ ul{
   height: 100%;
   left: -75%;
   z-index: 1;
-  transition: height 0s ease;
+  transition: left 100ms ease-in-out;
 }
 
 .navbar-collapse.show {

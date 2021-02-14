@@ -1,22 +1,3 @@
-// function quickLink(){
-//     var name = document.getElementById('name').value;
-//     var url = document.getElementById('url').value;
-
-//     document.getElementById('favicon1').src = "https://s2.googleusercontent.com/s2/favicons?domain="+url;
-//     document.getElementById('link1').href = url;
-//     document.getElementById('link1').textContent = name;
-
-//     var Link = [12][12];
-
-//     for(var i=0;i<12;i++){
-//         console.log($("li").eq(i).children);
-//     }
-
-
-    
-//     console.log("https://s2.googleusercontent.com/s2/favicons?domain="+url);
-// }
-
 const linkForm = document.querySelector('.link');
 
 const linkName = document.querySelector('.link-name');
@@ -33,9 +14,9 @@ const editLinkURL = document.querySelector('.edit-link-url');
 
 let links = [];
 
-linkForm.addEventListener('submit', function(event){
-    event.preventDefault();
+linkForm.addEventListener('submit', function(){
     addLink(linkName.value, linkURL.value);
+    $('#newLinkModal').modal('hide');
 })
 
 //addLink
@@ -94,7 +75,6 @@ function getLinkFromLocalStorage(){
         //po utworzeniu 12 skrotow zabiera mozliwosc tworzenia nowych
         if(links.length >= 12){
             const btn = document.querySelector('.editBtn');
-            console.log(btn)
             btn.setAttribute('class', 'd-none');
         }
 
