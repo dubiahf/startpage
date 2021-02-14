@@ -1,0 +1,159 @@
+body{
+  background-image:url(../media/1587340058138.jpg);
+  font-size: 1em;
+  overflow: hidden;
+  color: #fff;
+}
+
+svg{
+  color:#fff
+}
+
+ul{
+    list-style: none;
+}
+
+/* stylowanie .link */
+.link-container{
+  text-align: justify;
+}
+
+.link-container::after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.link-container li{
+  display: inline-block;
+  width: 20%;
+  padding: 20px;
+}
+
+.link-container li:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* /.link */
+
+.favicon{
+  width: 25px;
+}
+
+.btn:focus,
+.btn-secondary:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+#timebox{
+  position: relative;
+  font-size: 5rem;
+  margin-left: .5em;
+}
+
+#datebox{
+  position: relative;
+  font-size: 2rem;
+  margin-left: 1em;
+}
+
+.searchbar input{
+  width: 100%;
+  font-size: 1.8em;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  transition: 200ms ease-in-out;
+  border-radius: 0;
+  border: 0;
+}
+
+.searchbar input:focus{
+  transition: 200ms ease-in-out;
+  font-size: 2em;
+  outline: none;
+}
+
+.todo-container{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #000;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.todo-items {
+  min-width: 350px;
+}
+  
+.item {
+  background-color: #fff;
+  padding: 10px;
+  font-size: 1.1rem;
+}
+  
+.item:first-child {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+  
+.item:last-child {
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+  
+.item input{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 4%;
+  width: 70%;
+}
+  
+.delete-button {
+  float: right;
+  background: inherit;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 2px 5px;
+  margin-left: 10px;
+  font-size: 1.1rem;
+  font-weight: 550;
+}
+
+.checked { 
+  text-decoration: line-through;
+  background-color: #2a9d8f;
+}
+
+
+/* stylowanie navbara bootstrapa zeby wyjezdzal z lewej strony */
+.navbar-collapse {
+  position: fixed;
+  top: 54px;
+  left: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  height: 100%;
+}
+
+.navbar-collapse.collapsing {
+  height: 100%;
+  left: -75%;
+  z-index: 1;
+  transition: height 0s ease;
+}
+
+.navbar-collapse.show {
+  height: 100%;
+  left: 0;
+  z-index: 1;
+  transition: left 400ms ease-in-out;
+}
+
+.navbar-toggler.collapsed ~ .navbar-collapse {
+  transition: left 400ms ease-in;
+}
