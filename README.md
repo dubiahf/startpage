@@ -12,4 +12,4 @@ Podczas pisania pomagałem sobie licznymi wątkami na forach dyskusyjnych takich
 - **[spacja]** skupia przeglądarkę na wyszukiwarce
 - **[t]** lub przycisk w prawym górnym rogu wysuwa panel z listą "do zrobienia"
 - **[n]** lub przycisk plusa pod "wyszukiwaniem" pokazuje "modal", dzięki któremu można dodawać nowe skróty do stron internetowych
-- Ikona kosza usuwa ***WSZYSTKIE*** linki z pamięci
+- Ikona kosza usuwa **WSZYSTKIE** linki z pamięci
