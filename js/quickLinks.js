@@ -6,12 +6,6 @@ const linkURL = document.querySelector('.link-url');
 
 const linkItems = document.querySelector('.link-items');
 
-const editLinks = document.querySelector('.edit-link');
-
-const editLinkName = document.querySelector('.edit-link-name');
-
-const editLinkURL = document.querySelector('.edit-link-url');
-
 let links = [];
 
 linkForm.addEventListener('submit', function(){
@@ -53,7 +47,6 @@ function renderLinks(links){
                 <br>
                 ${item.name}
             </a>
-
         `;
 
         linkItems.append(li);
@@ -80,6 +73,11 @@ function getLinkFromLocalStorage(){
 
         renderLinks(links);
     }
+}
+
+function deleteLinks(){
+    localStorage.removeItem('links');
+    location.reload();
 }
 
 getLinkFromLocalStorage();

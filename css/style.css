@@ -88,22 +88,22 @@ ul{
   padding: 20px;
 }
 
-.todo-items {
+.todo-items{
   min-width: 350px;
 }
   
-.item {
+.item{
   background-color: #fff;
   padding: 10px;
   font-size: 1.1rem;
 }
   
-.item:first-child {
+.item:first-child{
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
 }
   
-.item:last-child {
+.item:last-child{
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
 }
@@ -116,7 +116,7 @@ ul{
   width: 70%;
 }
   
-.delete-button {
+.delete-button{
   float: right;
   background: inherit;
   height: 100%;
@@ -128,14 +128,14 @@ ul{
   font-weight: 550;
 }
 
-.checked { 
+.checked{ 
   text-decoration: line-through;
   background-color: #2a9d8f;
 }
 
 
 /* stylowanie navbara bootstrapa zeby wyjezdzal z lewej strony */
-.navbar-collapse {
+.navbar-collapse{
   position: fixed;
   top: 54px;
   left: 0;
@@ -145,20 +145,20 @@ ul{
   height: 100%;
 }
 
-.navbar-collapse.collapsing {
+.navbar-collapse.collapsing{
   height: 100%;
   left: -75%;
   z-index: 1;
   transition: left 100ms ease-in-out;
 }
 
-.navbar-collapse.show {
+.navbar-collapse.show{
   height: 100%;
   left: 0;
   z-index: 1;
   transition: left 400ms ease-in-out;
 }
 
-.navbar-toggler.collapsed ~ .navbar-collapse {
+.navbar-toggler.collapsed ~ .navbar-collapse{
   transition: left 400ms ease-in;
 }
