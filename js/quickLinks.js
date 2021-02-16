@@ -68,6 +68,7 @@ function getLinkFromLocalStorage(){
         //po utworzeniu 12 skrotow zabiera mozliwosc tworzenia nowych
         if(links.length >= 12){
             const btn = document.querySelector('.editBtn');
+            
             btn.setAttribute('class', 'd-none');
         }
 
@@ -75,7 +76,9 @@ function getLinkFromLocalStorage(){
     }
 }
 
+//deleteLinks
 function deleteLinks(){
+    //usuwa linki z pamięci i odświeża stronę
     localStorage.removeItem('links');
     location.reload();
 }

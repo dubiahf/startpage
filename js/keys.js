@@ -8,7 +8,7 @@ document.body.onkeyup = function(key){
             searchbar.focus();
         }
         //po kliknieciu 'n' wyswietla sie modal do dodawania nowego skrotu 
-        if(key.keyCode == 78 && links1.length < 12){
+        if(key.keyCode == 78 && (links1 === null || links1.length < 12)){
             $('#newLinkModal').modal('show');
         }
         //po kliknieciu 't' wysuwa sie todo
