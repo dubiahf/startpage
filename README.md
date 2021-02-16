@@ -7,7 +7,7 @@ Szczegóły działania kodu umieszczone są w komentarzach odpowiednich plików.
 "*quickLinks.js*" nie posiada takich komentarzy, ponieważ jest praktycznie kopią "*todo.js*" z innymi nazwami funkcji i drobnymi zmianami.
 Podczas pisania pomagałem sobie licznymi wątkami na forach dyskusyjnych takich jak [Stack Overflow](https://stackoverflow.com/), stroną [W3Schools](https://www.w3schools.com/) oraz [dokumentacją Bootstrapa](https://getbootstrap.com/docs/5.0/getting-started/introduction/).
 
-Przy tworzeniu wyskakujących okien ([modali](https://getbootstrap.com/docs/5.0/components/modal/)) oraz stylowaniu strony wspomagałem się klasami [Bootstrapa](https://getbootstrap.com/)
+Przy tworzeniu wyskakujących okien ([modali](https://getbootstrap.com/docs/5.0/components/modal/)) oraz stylowaniu strony wspomagałem się [Bootstrapem](https://getbootstrap.com/)
 
 ### Użytkowanie 
 
